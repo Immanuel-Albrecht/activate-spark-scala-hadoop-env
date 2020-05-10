@@ -1,3 +1,8 @@
+# Requirements
+
+This script requires `realpath` to be available from the command line. If your os/distribution does not come
+with this command, you might want to install the corresponding package. (Some distros have it as `realpath` package, some provide it in `coreutils` or `gnu-coreutils`.)
+
 ## Setup
 
 Extract your combination of choice of

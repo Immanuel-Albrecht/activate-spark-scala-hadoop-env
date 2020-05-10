@@ -16,3 +16,7 @@ into a directory. Place `activate.env` in this directory. In a shell, run `sourc
 setup PATH, CLASSPATH, and all the other environment variables in order to use the specified combination.
 Now you may use `spark-shell`, `scala`, `hdfs`,... and all the other tools from your shell.
 
+## Note for macOS
+
+* You need to install a package that provides `realpath`. If you use homebrew, this can be done via `brew install coreutils`.
+* If you download openjdk8, choose the .tar.gz-archive option. After extracting the archive, move all files and folders from the `Contents/Home` sub-subdirectory to the jdk subdirectory. (`mv jdk*/Contents/Home/* jdk*`).
